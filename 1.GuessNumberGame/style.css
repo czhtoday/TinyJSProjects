@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+button{
+  width: 200px;
+  height: 100px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(54, 124, 199);
+  color: white;
+  font-size: 3rem;
+  cursor: pointer;
+  align-content: center;
+}
+
+button:hover{
+  background-color: rgb(36, 145, 247);
+}
+
+#guessgame{
+  text-align: center;
+}
