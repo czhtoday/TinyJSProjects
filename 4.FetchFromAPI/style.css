@@ -1,0 +1,32 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+}
+
+h1{
+  font-size: 2rem;
+  color: orange;
+}
+
+input{
+  font-size: 1rem;
+}
+
+button{
+  display:flex;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 157, 0);
+  color:white;
+  cursor: pointer;
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+#pokemonSprite{
+  width: 250px;
+}
